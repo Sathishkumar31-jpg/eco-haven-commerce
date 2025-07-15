@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom eco-platform colors
+				'nature-green': 'hsl(var(--nature-green))',
+				'nature-green-light': 'hsl(var(--nature-green-light))',
+				'earth-brown': 'hsl(var(--earth-brown))',
+				'sky-blue': 'hsl(var(--sky-blue))',
+				'sunset-orange': 'hsl(var(--sunset-orange))'
+			},
+			backgroundImage: {
+				'gradient-nature': 'var(--gradient-nature)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-sunset': 'var(--gradient-sunset)'
+			},
+			boxShadow: {
+				'nature': 'var(--shadow-nature)',
+				'soft': 'var(--shadow-soft)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'spring': 'var(--transition-spring)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
